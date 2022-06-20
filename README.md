@@ -13,5 +13,9 @@ To provide clear step-by-step guide to successfully create Hub-Spoke network top
 - Spoke1 vNet CIDR: 10.1.0.0/16, spoke1subnet CIDR: 10.1.0.0/24
 - Spoke2 vNet CIDR: 10.2.0.0/16, spoke2subnet CIDR: 10.2.0.0/24
 
+Important: 
+* Subnet in Hub must be named [**GatewaySubnet**](https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-about-vpn-gateway-settings#gwsub).
+* Subnets in Spoke can be named something else as your preference.
+
 Reference:
-[How to create vNet and subnet](https://docs.microsoft.com/en-us/azure/virtual-network/quick-create-portal#create-a-virtual-network) 
+[How to create vNet and subnet](https://docs.microsoft.com/en-us/azure/virtual-network/quick-create-portal#create-a-virtual-network).
